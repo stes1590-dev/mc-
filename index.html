@@ -608,6 +608,7 @@
         }
         class Yunuo extends Piece {
             constructor() { super('尤諾'); }
+            rollBaseSteps() { return Math.floor(Math.random() * 3) + 1; }
         }
         class FuluoLuo extends Piece {
             constructor() { super('弗洛洛'); }
